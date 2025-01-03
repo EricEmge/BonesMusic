@@ -22,7 +22,7 @@ async def help(ctx):
     """Displays a list of all commands and their descriptions."""
     help_message = (
         "**Here are the available commands:**\n"
-        "!message: Responds with 'this is nae nae time'.\n"
+        "!message: Responds with 'hey whats going on'.\n"
         "!fnaf: Adds and plays 'Five Nights at Freddy's' by The Living Tombstone.\n"
         "!play [search_query]: Searches for and queues the song.\n"
         "!thequeue: Lists all songs in the queue.\n"
@@ -34,7 +34,7 @@ async def help(ctx):
 @bot.command()
 async def message(ctx):
     """Sends a fixed message."""
-    await ctx.send("this is nae nae time")
+    await ctx.send("hey whats going on")
 
 
 @bot.command()
